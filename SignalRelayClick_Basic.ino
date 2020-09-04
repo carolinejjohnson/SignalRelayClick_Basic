@@ -14,6 +14,7 @@ void setup() {
   pinMode (REL4, OUTPUT); 
 }
 
+//Turns on each relay board individually.
 void loop() {
   digitalWrite (REL1, HIGH);                      // Relay 1 active
   digitalWrite (REL2, LOW);
